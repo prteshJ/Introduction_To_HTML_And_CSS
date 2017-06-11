@@ -1,0 +1,82 @@
+/* Global */
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+  font-weight: 300;
+}
+/* Portfolio logo */
+
+.logo {
+  margin: 20px 0 0 0;
+  padding: 0 15px 7px 15px;
+}
+/* Header tags */
+
+h1 {
+  font-size: 49px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+}
+
+h2 {
+  font-size: 20px;
+  color: #bcb;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+/* Horizontal Separator */
+
+hr {
+  border: 1px solid #bcb;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+/* Anchor Tag */
+
+a {
+  font-weight: 100;
+  color: #747704;
+  font-size: 11px;
+}
+/* Style Modal Close Button Font */
+
+span {
+  color: red;
+}
+/* Custom CSS */
+
+.row-space {
+    /* Ensures row elements maintain consistency */
+  margin: 10px 0 0 0;
+}
+
+.modal-header .close {
+    /* Align modal exit button properly */
+  margin: 32px 0 0 0;
+}
+
+.custom_image>img {
+  width: 360px;
+  height: 200px;
+    /* Aids specificity */;
+}
+
+.modal_image>img {
+  height: 110px;
+    /* Aids specificity */;
+}
